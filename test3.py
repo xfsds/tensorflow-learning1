@@ -5,12 +5,11 @@ node2 = tf.constant(4.0)
 #   print(node1, node2)
 node3 = tf.add(node1, node2)
 
-sess = tf.Session()
-print(sess.run([node1, node2]))
-print(sess.run([node3]))
+with tf.Session() as sess:
+    writer = tf.summary.FileWriter('./graphs', sess.graph)
+    print(sess.run([node3]))
 
-
-
+writer.close()
 
 
 
