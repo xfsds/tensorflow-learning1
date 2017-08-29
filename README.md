@@ -1,5 +1,6 @@
 # tensorflow-learning1
 
+learning notes of github & python & tensorflow
 
 ## github operations
 
@@ -16,7 +17,7 @@
 
     `git push origin` master:[remote Branch Name]
 
-##tensorflow operations
+## tensorflow operations
 
 
 - **how to run tensorflow**
